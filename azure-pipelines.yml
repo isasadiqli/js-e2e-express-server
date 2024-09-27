@@ -12,7 +12,7 @@ pool:
 steps:
 - task: buildandreleasetask@0
   inputs:
-    samplestring: "shs"
+    samplestring: 'shs'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
